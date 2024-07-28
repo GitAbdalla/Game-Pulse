@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.867);
+  font-family: "gaming";
+}
+body {
+  background-color: #2f3a43;
+}
+.contain {
+  padding-top: 5px;
+  display: flex;
+  /* background-color: rgb(189, 181, 181); */
+  justify-content: space-around;
+}
+img {
+  width: 500px;
+  height: 400px;
+  margin-top: 50px;
+  border: #eb4b0d;
+}
+.cs {
+  width: 40%;
+  padding-top: 100px;
+  /* background-color: antiquewhite; */
+  position: relative;
+}
+.cs p {
+  padding-left: 5px;
+  border-left: solid #eb4b0d;
+  font-size: 20px;
+}
+.mc {
+  width: 40%;
+  padding-top: 100px;
+}
+#test {
+  border-right: solid #eb4b0d;
+  padding-right: 5px;
+  /* border-left: solid #eb4b0d; */
+  font-size: 20px;
+}
+.lol {
+  width: 40%;
+  padding-top: 100px;
+  /* background-color: antiquewhite; */
+  position: relative;
+}
+.lol p {
+  padding-left: 5px;
+  border-left: solid #eb4b0d;
+  font-size: 20px;
+}
+.fortnite {
+  width: 40%;
+  padding-top: 100px;
+}
+.fortnite p {
+  border-right: solid #eb4b0d;
+  padding-right: 5px;
+  /* border-left: solid #eb4b0d; */
+  font-size: 20px;
+}
+span {
+  font-size: 1.5em;
+  color: #eb4c0d8e;
+}
+body {
+  cursor: none; /* Hide the default cursor */
+}
+.custom-cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  background-color: #eb4b0d; /* Set your desired cursor color */
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: transform 0.1s ease-out;
+}
